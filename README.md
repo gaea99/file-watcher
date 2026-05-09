@@ -1,2 +1,1 @@
-# file-watcher
-Lightweight file system watcher with debounce
+# file-watcher\n\nLightweight file system watcher with debounce and glob filtering.\n\n## Usage\n```python\nfrom watcher import FileWatcher\nw = FileWatcher("./src", patterns=["*.py"])\nw.on_change(lambda c: print(c)).start()\n```\n\n## License\nMIT\n
